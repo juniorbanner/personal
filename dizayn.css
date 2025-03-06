@@ -1,67 +1,100 @@
-
-.bosh{
-        color: white;
-        background-color: rgb(32,178,170) ;
-        text-align: center;
-        font-family: 'Consolas';
-        font-size: 24px;
+/* General Styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Consolas', sans-serif;
+    font-size: 1rem; /* Responsive font size */
 }
 
-h1{
-    background-color: rgb(224, 255,255);
+/* Header Section */
+.bosh {
+    color: white;
+    background-color: rgb(32, 178, 170);
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 1rem;
+    width: 100%;
+}
+
+/* Title */
+h1 {
+    background-color: rgb(224, 255, 255);
     color: rgb(0, 0, 128);
     text-align: center;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin: 10px auto;
+    font-size: 2rem;
+    padding: 0.5rem;
 }
 
-.dua-container{
-    float: right;
-    width: 30%; 
+/* Dua Container - Adjusted for Responsiveness */
+.dua-container {
+    width: 30%;
     background-color: rgb(224, 255, 255);
     padding: 10px;
     border-radius: 5px;
-    margin-right: 25%;
-    margin-top: 10px;
+    margin: 10px auto; /* Centering instead of float */
+    text-align: center;
 }
 
+/* Headings */
 h3 {
     margin: 0;
-    font-size: 22px;
+    font-size: 1.3rem;
     color: darkblue;
-    text-align: center;
 }
 
+/* Paragraph */
 p {
-    margin: 5px 0 0 0;
-    font-size: 18px;
+    margin: 5px 0;
+    font-size: 1rem;
     text-align: center;
 }
-table{
-    margin-left: 5%;
-    border-color: rgb(0, 0, 128);
+
+/* Table Styling */
+table {
+    width: 90%; /* Adjusted width for responsiveness */
+    margin: 10px auto;
     border-collapse: collapse;
-    padding: 3px;
-    margin-top: 10px;
+    border: 2px solid rgb(0, 0, 128);
 }
 
+/* Table Content */
 .malumot {
     text-align: center;
     color: rgb(56, 9, 122);
     background-color: rgb(230, 230, 250);
-    font-family: 'Consolar';
-    font-size: 22px;
-
+    font-size: 1.2rem;
 }
 
-.malumot tr:hover{
+/* Hover Effect for Table Rows */
+.malumot tr:hover {
     color: rgb(44, 44, 4);
     background-color: rgb(255, 143, 0);
-    font-family:'Palatino Linotype';
-
+    font-family: 'Palatino Linotype';
 }
 
-#davomi{
+/* ID Style */
+#davomi {
     color: rgb(0, 0, 205);
     background-color: rgb(192, 192, 192);
+}
+
+/* 🔥 Responsive Design (Mobile & Tablet) */
+@media screen and (max-width: 768px) {
+    .dua-container {
+        width: 90%; /* Makes it take full width on small screens */
+        margin: 10px auto;
+    }
+
+    table {
+        width: 100%; /* Full width on smaller screens */
+    }
+
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    .malumot {
+        font-size: 1rem;
+    }
 }
