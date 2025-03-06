@@ -1,0 +1,67 @@
+
+.bosh{
+        color: white;
+        background-color: rgb(32,178,170) ;
+        text-align: center;
+        font-family: 'Consolas';
+        font-size: 24px;
+}
+
+h1{
+    background-color: rgb(224, 255,255);
+    color: rgb(0, 0, 128);
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.dua-container{
+    float: right;
+    width: 30%; 
+    background-color: rgb(224, 255, 255);
+    padding: 10px;
+    border-radius: 5px;
+    margin-right: 25%;
+    margin-top: 10px;
+}
+
+h3 {
+    margin: 0;
+    font-size: 22px;
+    color: darkblue;
+    text-align: center;
+}
+
+p {
+    margin: 5px 0 0 0;
+    font-size: 18px;
+    text-align: center;
+}
+table{
+    margin-left: 5%;
+    border-color: rgb(0, 0, 128);
+    border-collapse: collapse;
+    padding: 3px;
+    margin-top: 10px;
+}
+
+.malumot {
+    text-align: center;
+    color: rgb(56, 9, 122);
+    background-color: rgb(230, 230, 250);
+    font-family: 'Consolar';
+    font-size: 22px;
+
+}
+
+.malumot tr:hover{
+    color: rgb(44, 44, 4);
+    background-color: rgb(255, 143, 0);
+    font-family:'Palatino Linotype';
+
+}
+
+#davomi{
+    color: rgb(0, 0, 205);
+    background-color: rgb(192, 192, 192);
+}
